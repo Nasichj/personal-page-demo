@@ -30,3 +30,21 @@ header a:focus {
 	color: #ffffff;
 	background-color: #CC0000;
 }
+#about, #projects {
+	background-color: #F1D234;
+}
+#education, #contact {
+	background-color: #A66106;
+}
+footer {
+	background-color: #D61C1A;
+}
+#about img {
+	max-height: 400px;
+	float: left;
+	margin-right: 1em;
+
+}
+	#education {
+		clear: both;
+	}
