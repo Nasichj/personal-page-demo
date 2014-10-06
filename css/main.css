@@ -22,6 +22,7 @@ header a:visited{
 	padding-right: 1em;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
+	transition: all 0.5s;
 }
 
 header a:hover,
@@ -45,10 +46,15 @@ footer {
 	float: left;
 	margin-right: 1em;
 	opacity: 1;
+	trasition: all 1s;
 
 }
 #about img:hover {
 	opacity: 0.7;
+	-webkit-transform: scale(1.1, 1.1);
+	-moz-transform: scale(1.1, 1.1);
+	-o-transform: scale(1.1, 1.1);
+	transform: scale(1.1, 1.1);
 }
 	#education {
 		clear: both;
